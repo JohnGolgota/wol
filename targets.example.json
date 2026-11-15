@@ -1,0 +1,12 @@
+{
+  "gmktec": {
+    "mac": "AA:BB:CC:DD:EE:FF",
+    "broadcast": "192.168.1.255",
+    "port": 9
+  },
+  "servl": {
+    "mac": "6C:4B:90:D7:74:BE",
+    "broadcast": "192.168.1.255",
+    "port": 9
+  }
+}

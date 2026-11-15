@@ -1,0 +1,12 @@
+[Unit]
+Description=Enable Wake-on-LAN (edit IFACE/MAC as needed)
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=oneshot
+ExecStart=/usr/sbin/ethtool -s eth0 wol g
+RemainAfterExit=yes
+
+[Install]
+WantedBy=multi-user.target
